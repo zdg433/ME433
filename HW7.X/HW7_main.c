@@ -59,6 +59,7 @@ int main(void) {
         
         NU32DIP_WriteUART1(bus);
         while (_CP0_GET_COUNT() < 48000000 / 2 / 100) {
+            
         }
     }
 }
